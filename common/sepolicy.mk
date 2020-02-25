@@ -23,3 +23,6 @@ BOARD_SEPOLICY_DIRS += \
     device/pixys/sepolicy/common/dynamic \
     device/pixys/sepolicy/common/vendor
 endif
+
+# Selectively include legacy rules defined by the products
+-include device/pixys/sepolicy/legacy-common/sepolicy.mk
