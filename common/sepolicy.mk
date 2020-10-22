@@ -26,7 +26,7 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
     device/pixys/sepolicy/common/dynamic \
     device/pixys/sepolicy/common/system
 else
-BOARD_SEPOLICY_DIRS += \
+BOARD_VENDOR_SEPOLICY_DIRS += \
     device/pixys/sepolicy/common/dynamic \
     device/pixys/sepolicy/common/vendor
 endif
