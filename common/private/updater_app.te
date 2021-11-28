@@ -26,4 +26,4 @@ allow updater_app system_app_data_file:file { read write getattr };
 get_prop(updater_app, default_prop)
 get_prop(updater_app, build_prop)
 
-#set_prop(updater_app, recovery_update_prop)
+set_prop(updater_app, recovery_update_prop)
