@@ -1,5 +1,3 @@
-type recovery_update_prop, property_type, extended_core_property_type;
-
 compatible_property_only(`
     system_restricted_prop(flag_system_prop)
 ')
