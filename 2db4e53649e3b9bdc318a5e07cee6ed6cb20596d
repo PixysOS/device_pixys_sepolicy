@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d3b091af_6e38d1fb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000085
+      },
+      "writtenOn": "2022-07-06T00:13:06Z",
+      "side": 1,
+      "message": "Fix build fails on recovery_update_prop",
+      "revId": "2db4e53649e3b9bdc318a5e07cee6ed6cb20596d",
+      "serverId": "dc9c43de-f401-424a-9bd3-945633c9f028"
+    }
+  ]
+}
