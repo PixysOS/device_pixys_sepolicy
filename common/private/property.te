@@ -6,3 +6,5 @@ not_compatible_property(`
     system_public_prop(flag_system_prop)
 ')
 
+# Reset Signatures
+system_restricted_prop(reset_signatures_prop);

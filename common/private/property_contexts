@@ -10,3 +10,6 @@ persist.vendor.recovery_update         u:object_r:recovery_update_prop:s0
 ro.build.selinux                       u:object_r:build_prop:s0
 
 persist.systemui.flag_combined_status_bar_signal_icons u:object_r:flag_system_prop:s0
+
+# Reset Signatures
+ro.persist.sys.signatures.reset         u:object_r:reset_signatures_prop:s0
