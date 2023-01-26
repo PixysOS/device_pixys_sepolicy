@@ -19,8 +19,7 @@ SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS  += \
 
 ifeq ($(TARGET_USES_PREBUILT_VENDOR_SEPOLICY), true)
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS  += \
-    device/pixys/sepolicy/common/dynamic \
-    device/pixys/sepolicy/common/system
+    device/pixys/sepolicy/common/dynamic
 else
 BOARD_VENDOR_SEPOLICY_DIRS += \
     device/pixys/sepolicy/common/dynamic \
